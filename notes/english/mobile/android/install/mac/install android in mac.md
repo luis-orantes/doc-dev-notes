@@ -16,3 +16,7 @@ https://www.oracle.com/java/technologies/downloads/
 
 
 ## 2.- Environment
+
+```bash
+cd ~
+```
