@@ -20,3 +20,5 @@ https://www.oracle.com/java/technologies/downloads/
 ```bash
 cd ~
 ```
+
+Create an empty file configuration (if it doesn't exist).
