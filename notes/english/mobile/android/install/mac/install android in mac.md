@@ -22,3 +22,7 @@ cd ~
 ```
 
 Create an empty file configuration (if it doesn't exist).
+
+```bash
+touch .zshrc
+```
