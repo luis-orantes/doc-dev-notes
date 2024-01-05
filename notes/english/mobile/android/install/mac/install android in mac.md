@@ -26,3 +26,5 @@ Create an empty file configuration (if it doesn't exist).
 ```bash
 touch .zshrc
 ```
+
+Open this file and add the next line:
