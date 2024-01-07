@@ -28,3 +28,7 @@ touch .zshrc
 ```
 
 Open this file and add the next line:
+
+```bash
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+```
