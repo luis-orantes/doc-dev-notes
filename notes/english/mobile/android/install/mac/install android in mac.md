@@ -41,3 +41,4 @@ Restart the terminal.
 ## 3.- Android Studio
 
 Download and install Android Studio from:
+https://developer.android.com/studio/install
