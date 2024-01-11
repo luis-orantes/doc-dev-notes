@@ -47,3 +47,5 @@ https://developer.android.com/studio/install
 
 
 ### 4.- Download apis
+
+Create an empty project selecting the second top API.
