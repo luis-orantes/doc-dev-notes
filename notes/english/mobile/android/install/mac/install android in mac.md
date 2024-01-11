@@ -42,3 +42,8 @@ Restart the terminal.
 
 Download and install Android Studio from:
 https://developer.android.com/studio/install
+
+
+
+
+### 4.- Dowload apis
