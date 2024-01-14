@@ -49,3 +49,5 @@ https://developer.android.com/studio/install
 ### 4.- Download apis
 
 Create an empty project selecting the second top API.
+
+> Which at this moment is API 33.
