@@ -53,3 +53,5 @@ Create an empty project selecting the second top API.
 > Which at this moment is API 33.
 
 > This will download that API.
+
+We will also need the empty project to open the SDK manager.
