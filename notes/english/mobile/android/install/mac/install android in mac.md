@@ -55,3 +55,5 @@ Create an empty project selecting the second top API.
 > This will download that API.
 
 We will also need the empty project to open the SDK manager.
+
+Open the SDK manager in `tools->SDK manager` and stay in `SDK platfoms` in the menu, and check `show package details`.
