@@ -57,3 +57,5 @@ Create an empty project selecting the second top API.
 We will also need the empty project to open the SDK manager.
 
 Open the SDK manager in `tools->SDK manager` and stay in `SDK platfoms` in the menu, and check `show package details`.
+
+In the Android SDK at the left menu select `Android SDK` unselect the top API (34) and select the second top API (33).
