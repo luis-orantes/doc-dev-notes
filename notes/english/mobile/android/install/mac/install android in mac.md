@@ -62,3 +62,4 @@ In the Android SDK at the left menu select `Android SDK` unselect the top API (3
 Select `platform` and the `Google APIs system image` of your OS (ARM or Intel, according to your type of processor).
 
 > Ionic capacitor runs from Android 5.1 API 22 but it will show only a white screen in the emulator because that API version doesn't come with Chrome.
+> In practice, in a device, the App will be shown correctly since vendors will install chrome by default.
