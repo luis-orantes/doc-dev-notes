@@ -74,3 +74,8 @@ Add the next environment variables to your .zshrc file in your home directory.
 ```bash
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
 ```
+
+
+
+
+### 6.- Add path
