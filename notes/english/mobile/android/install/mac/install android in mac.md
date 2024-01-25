@@ -79,3 +79,5 @@ export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
 
 
 ### 6.- Add path
+
+Add the next paths to your ~/.zshrc file:
