@@ -86,3 +86,6 @@ Add the next paths to your ~/.zshrc file:
 export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools:$PATH"
 
 export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/platform-tools:$PATH"
+
+export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools/bin:$PATH"
+```
