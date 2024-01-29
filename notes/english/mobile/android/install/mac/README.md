@@ -89,3 +89,8 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/platform-tools:$PATH"
 
 export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools/bin:$PATH"
 ```
+
+
+
+
+### 7.- Remove unwanted API
