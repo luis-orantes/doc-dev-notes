@@ -17,6 +17,8 @@ https://www.oracle.com/java/technologies/downloads/
 
 ## 2.- Environment
 
+Add the JAVA_HOME environment variable.
+
 ```bash
 cd ~
 ```
