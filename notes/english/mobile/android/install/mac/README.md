@@ -101,3 +101,7 @@ When downloading the API in step 4, the top API (34) is removed but the build to
 So, we need to remove it by using the next cli command replacing the numbers by the top build tools in `~/Library/Android/sdk/build-tools`.
 
 Restart the terminal; then run:
+
+```bash
+sdkmanager --uninstall "build-tools;34.0.0"
+```
