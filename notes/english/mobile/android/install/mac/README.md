@@ -105,3 +105,8 @@ Restart the terminal; then run:
 ```bash
 sdkmanager --uninstall "build-tools;34.0.0"
 ```
+
+
+
+
+### 8.- More paths
