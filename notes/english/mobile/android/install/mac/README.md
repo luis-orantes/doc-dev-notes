@@ -110,3 +110,6 @@ sdkmanager --uninstall "build-tools;34.0.0"
 
 
 ### 8.- More paths
+
+Add the path to the second top build tools.
+Replace the numbers by the build tools numbers (33.0.1).
