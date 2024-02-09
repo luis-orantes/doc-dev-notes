@@ -113,3 +113,7 @@ sdkmanager --uninstall "build-tools;34.0.0"
 
 Add the path to the second top build tools.
 Replace the numbers by the build tools numbers (33.0.1).
+
+```bash
+export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/33.0.1:$PATH"
+```
