@@ -124,3 +124,5 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/33.0.1:$PATH"
 ### 9.- Install CLI
 
 Click on tab `SDK Tools` and select `Android SDK Command-line Tools (latest)`.
+
+> This will download the CLI.
