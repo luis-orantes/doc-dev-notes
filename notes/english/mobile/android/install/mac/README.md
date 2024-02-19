@@ -128,3 +128,7 @@ Click on tab `SDK Tools` and select `Android SDK Command-line Tools (latest)`.
 > This will download the CLI.
 
 Add the following CLI path:
+
+```bash
+export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin:$PATH"
+```
