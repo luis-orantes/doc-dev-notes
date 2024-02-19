@@ -132,3 +132,8 @@ Add the following CLI path:
 ```bash
 export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin:$PATH"
 ```
+
+
+
+
+### 10.- Create device
