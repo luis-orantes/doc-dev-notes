@@ -137,3 +137,5 @@ export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin
 
 
 ### 10.- Create device
+
+In Android Studio go to `tools->Device manager` and click on `Device`.
