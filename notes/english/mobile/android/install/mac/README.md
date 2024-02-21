@@ -139,3 +139,5 @@ export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin
 ### 10.- Create device
 
 In Android Studio go to `tools->Device manager` and click on `Device`.
+
+In the just opened right side Select `phone->Galaxy Nexus`(720x1280)
