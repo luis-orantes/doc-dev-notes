@@ -141,3 +141,4 @@ export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin
 In Android Studio go to `tools->Device manager` and click on `Device`.
 
 In the just opened right side Select `phone->Galaxy Nexus`(720x1280)
+and click in next select the API 33 image and name the AVD `13api33`.
