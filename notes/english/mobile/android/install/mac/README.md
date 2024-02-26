@@ -145,3 +145,5 @@ and click in next select the API 33 image and name the AVD `13api33`.
 Where 13 stands for the Android version and 33 for the API version.
 
 > These are the minimal required dimensions for a phone screenshot in Google Play.
+
+Click on `Show Advanced Settings`.
