@@ -147,3 +147,5 @@ Where 13 stands for the Android version and 33 for the API version.
 > These are the minimal required dimensions for a phone screenshot in Google Play.
 
 Click on `Show Advanced Settings`.
+
+Select the option `Emulated Performance -> Boot option -> Cold boot`.
