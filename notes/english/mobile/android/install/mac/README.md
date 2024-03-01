@@ -152,3 +152,8 @@ Select the option `Emulated Performance -> Boot option -> Cold boot`.
 
 > The default option is `quick boot` which leads to faster starting of the emulator but because the OS doesn't restart it may lead to instability.
 `Cold boot` guarantees that the emulator is restarted completely in every boot.
+
+
+
+
+#### 11.- (Optional) Extra devices
