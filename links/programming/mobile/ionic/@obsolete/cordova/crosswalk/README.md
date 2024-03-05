@@ -1,5 +1,5 @@
 
-A web runtime built on Chrome.
+### A web runtime built on Chrome.
 
 Changes the default view of Cordova by one based in Chromium.
 This was used to have modern HTML5 in old Android OS.
