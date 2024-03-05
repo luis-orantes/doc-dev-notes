@@ -159,3 +159,4 @@ Select the option `Emulated Performance -> Boot option -> Cold boot`.
 #### 11.- (Optional) Extra devices
 
 You may need to use the following dimensions for getting the screenshots required by Google Play.
+For doing this you may just need to edit the AVD
