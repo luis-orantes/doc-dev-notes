@@ -162,3 +162,4 @@ You may need to use the following dimensions for getting the screenshots require
 For doing this you may just need to edit the AVD
 
 * Tablet 7": 7" WSVGA (Tablet) 600x1024.
+* Tablet 10": Nexus 10 (2560x1600).
