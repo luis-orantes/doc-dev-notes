@@ -169,3 +169,5 @@ For doing this you may just need to edit the AVD
 
 
 #### 12.- (Optional) iPhone devices
+
+You may use the Android emulator to take the screenshots for the iPhone.
