@@ -174,3 +174,4 @@ You may use the Android emulator to take the screenshots for the iPhone.
 When editing the AVD size click on `New Hardware Profile` and fill the info using the following data:
 
 * iPhone 14 Pro Max 6.7": 1290x2796.
+* iPhone 6 Plus 5.5": 1242x2208.
