@@ -19,6 +19,8 @@ https://www.oracle.com/java/technologies/downloads/
 
 Add the JAVA_HOME environment variable.
 
+Move to your home directory.
+
 ```bash
 cd ~
 ```
@@ -175,3 +177,4 @@ When editing the AVD size click on `New Hardware Profile` and fill the info usin
 
 * iPhone 14 Pro Max 6.7": 1290x2796.
 * iPhone 6 Plus 5.5": 1242x2208.
+* iPad: TODO=< ***
