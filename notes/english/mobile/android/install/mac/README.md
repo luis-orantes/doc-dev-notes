@@ -71,7 +71,7 @@ Select `platform` and the `Google APIs system image` of your OS (ARM or Intel, a
 
 
 
-### 5.- Add environment variables
+## 4.- Add environment variables
 
 Add the next environment variables to your .zshrc file in your home directory.
 
