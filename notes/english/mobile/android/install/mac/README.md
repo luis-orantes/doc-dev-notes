@@ -178,3 +178,5 @@ When editing the AVD size click on `New Hardware Profile` and fill the info usin
 * iPhone 14 Pro Max 6.7": 1290x2796.
 * iPhone 6 Plus 5.5": 1242x2208.
 * iPad: TODO=< ***
+
+*** TODO=< remove buttons for screenshots
