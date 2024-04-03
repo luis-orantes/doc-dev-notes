@@ -97,7 +97,7 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools/bin:$PATH"
 
 
 
-### 7.- Remove unwanted API
+## 6.- Remove unwanted API
 
 When downloading the API in step 4, the top API (34) is removed but the build tools aren't.
 So, we need to remove it by using the next cli command replacing the numbers by the top build tools in `~/Library/Android/sdk/build-tools`.
