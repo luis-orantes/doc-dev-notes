@@ -6,4 +6,4 @@
 
 ## 1.- Install Xcode
 
-Open the App Store and search for Xcode. Install the App.
+Open the App Store and search for Xcode and nstall the App.
