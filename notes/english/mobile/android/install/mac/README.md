@@ -170,7 +170,7 @@ For doing this you may just need to edit the AVD
 
 
 
-#### 12.- (Optional) iPhone devices
+### 9.2.- (Optional) iPhone devices
 
 You may use the Android emulator to take the screenshots for the iPhone.
 When editing the AVD size click on `New Hardware Profile` and fill the info using the following data:
