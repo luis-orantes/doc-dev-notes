@@ -7,3 +7,4 @@
 ## 1.- Install Xcode
 
 Open the App Store and search for Xcode and nstall the App.
+You will need to sign in with your Apple ID account.
