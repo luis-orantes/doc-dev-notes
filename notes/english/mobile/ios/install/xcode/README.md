@@ -10,3 +10,4 @@ Open the App Store and search for Xcode and nstall the App.
 You will need to sign in with your Apple ID account.
 
 > You will probably need to have your Mac updated to the latest version of macOS.
+> If your Mac is old and it can't update to he latest macOS version, download an older version of Xcode (the top that works in your Mac) from https://xcodereleases.com/
