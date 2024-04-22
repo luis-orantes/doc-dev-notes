@@ -13,3 +13,8 @@ You will need to sign in with your Apple ID account.
 > If your Mac is old and it can't update to he latest macOS version, download an older version of Xcode (the top that works in your Mac) from https://xcodereleases.com/
 
 When the package is downloaded double click on it and drag the uncompressed Xcode to the Application folder.
+
+
+
+
+### Config Xcode
