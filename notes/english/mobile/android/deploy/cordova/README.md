@@ -5,3 +5,5 @@
 
 
 ## 1.- Build
+
+Build the App for production.
