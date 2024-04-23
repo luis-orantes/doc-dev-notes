@@ -7,3 +7,7 @@
 ## 1.- Build
 
 Build the App for production.
+
+```bash
+ionic build --prod
+```
