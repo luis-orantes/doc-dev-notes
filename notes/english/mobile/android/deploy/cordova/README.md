@@ -11,3 +11,8 @@ Build the App for production.
 ```bash
 ionic build --prod
 ```
+
+
+
+
+### 1.1.- Alternative Build
