@@ -20,3 +20,8 @@ When the package is downloaded double click on it and drag the uncompressed Xcod
 ### Config Xcode
 
 After installing, open Xcode at least once to agree to the terms and conditions and to install any additional required components.
+
+
+
+
+#### Switch the Active Developer Directory
