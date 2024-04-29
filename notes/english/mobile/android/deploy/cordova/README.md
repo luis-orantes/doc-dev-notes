@@ -16,3 +16,5 @@ ionic build --prod
 
 
 ### 1.1.- Alternative Build
+
+If the previous command doesn't work try:
