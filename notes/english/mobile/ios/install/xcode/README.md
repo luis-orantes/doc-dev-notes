@@ -27,3 +27,7 @@ After installing, open Xcode at least once to agree to the terms and conditions 
 #### Switch the Active Developer Directory
 
 Use xcode-select to switch the active developer directory to the full Xcode installation:
+
+```bash
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
