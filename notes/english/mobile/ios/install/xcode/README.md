@@ -31,3 +31,8 @@ Use xcode-select to switch the active developer directory to the full Xcode inst
 ```bash
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
+
+
+
+
+#### Verify the Change
