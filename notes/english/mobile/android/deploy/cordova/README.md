@@ -22,3 +22,8 @@ If the previous command doesn't work try:
 ```bash
 ionic build --minifycss
 ```
+
+
+
+
+### 1.2.- Clean directory
