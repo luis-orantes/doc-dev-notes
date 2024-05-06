@@ -36,3 +36,5 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 
 
 #### Verify the Change
+
+You can verify that the change was successful by checking the path of the active developer directory:
