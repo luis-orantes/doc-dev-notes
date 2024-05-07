@@ -29,3 +29,8 @@ ionic build --minifycss
 ### 1.2.- Clean directory
 
 Move to the build directory and delete all map files.
+
+```bash
+cd www/build
+del *.map
+```
