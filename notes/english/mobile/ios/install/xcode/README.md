@@ -42,3 +42,5 @@ You can verify that the change was successful by checking the path of the active
 ```bash
 xcode-select -p
 ```
+
+This should now point to `/Applications/Xcode.app/Contents/Developer`.
