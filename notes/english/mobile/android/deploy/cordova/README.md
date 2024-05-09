@@ -34,3 +34,8 @@ Move to the build directory and delete all map files.
 cd www/build
 del *.map
 ```
+
+
+
+
+## 2.- Obfuscate
