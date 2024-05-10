@@ -44,3 +44,8 @@ xcode-select -p
 ```
 
 This should now point to `/Applications/Xcode.app/Contents/Developer`.
+
+
+
+
+## 2.- Install Homebrew
