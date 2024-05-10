@@ -39,3 +39,5 @@ del *.map
 
 
 ## 2.- Obfuscate
+
+Install the obfuscator globally (if you haven't), available in: https://www.npmjs.com/package/javascript-obfuscator
