@@ -49,3 +49,5 @@ This should now point to `/Applications/Xcode.app/Contents/Developer`.
 
 
 ## 2.- Install Homebrew
+
+Check if you already have Homebrew installed by checking its version.
