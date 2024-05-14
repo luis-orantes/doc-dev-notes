@@ -47,3 +47,5 @@ javascript-obfuscator main.js
 del main.js
 ren main-obfuscated.js main.js
 ```
+
+Copy `www` directory to:
