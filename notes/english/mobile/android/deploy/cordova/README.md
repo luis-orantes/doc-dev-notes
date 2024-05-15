@@ -49,3 +49,7 @@ ren main-obfuscated.js main.js
 ```
 
 Copy `www` directory to:
+
+```bash
+C:\Users\username\AppData\Local\Packages\dev.highsecret.secretjs_h35559jr9hy9m\LocalState\
+```
