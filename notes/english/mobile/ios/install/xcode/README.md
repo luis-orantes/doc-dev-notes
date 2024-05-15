@@ -55,3 +55,5 @@ Check if you already have Homebrew installed by checking its version.
 ```bash
 brew -v
 ```
+
+If you have it installed, update your brew before installing anything.
