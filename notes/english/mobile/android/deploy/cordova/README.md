@@ -53,3 +53,5 @@ Copy `www` directory to:
 ```bash
 C:\Users\username\AppData\Local\Packages\dev.highsecret.secretjs_h35559jr9hy9m\LocalState\
 ```
+
+Click on the encypt button in SecretJs.
