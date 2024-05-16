@@ -57,3 +57,8 @@ brew -v
 ```
 
 If you have it installed, update your brew before installing anything.
+
+
+```bash
+brew update
+```
