@@ -62,3 +62,5 @@ If you have it installed, update your brew before installing anything.
 ```bash
 brew update
 ```
+
+If you don't have it installed, run the following command in the terminal.
