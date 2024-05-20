@@ -57,3 +57,8 @@ C:\Users\username\AppData\Local\Packages\dev.highsecret.secretjs_h35559jr9hy9m\L
 Click on the encypt button in SecretJs.
 
 Copy a replace `main.js` in `LocalState\www\build` to project directory `www\build`
+
+
+
+
+## 3.- Build Bundle
