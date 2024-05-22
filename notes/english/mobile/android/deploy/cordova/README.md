@@ -64,3 +64,7 @@ Copy a replace `main.js` in `LocalState\www\build` to project directory `www\bui
 ## 3.- Build Bundle
 
 (OPTIONAL) Test the app on device by running:
+
+```bash
+ionic cordova run android --no-build
+```
