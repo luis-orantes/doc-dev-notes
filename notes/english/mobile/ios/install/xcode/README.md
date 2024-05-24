@@ -80,3 +80,5 @@ If you face any trouble when installing Homebrew please refer to the official in
 
 
 ## 3.- Install Ruby
+
+### Use Homebrew to Install a New Ruby Version
