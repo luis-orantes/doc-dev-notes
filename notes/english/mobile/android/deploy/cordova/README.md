@@ -68,3 +68,5 @@ Copy a replace `main.js` in `LocalState\www\build` to project directory `www\bui
 ```bash
 ionic cordova run android --no-build
 ```
+
+Build an `.apk` package for release.
