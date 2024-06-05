@@ -70,3 +70,7 @@ ionic cordova run android --no-build
 ```
 
 Build an `.apk` package for release.
+
+```bash
+ionic cordova build android --release --no-build
+```
