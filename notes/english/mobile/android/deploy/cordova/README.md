@@ -74,3 +74,5 @@ Build an `.apk` package for release.
 ```bash
 ionic cordova build android --release --no-build
 ```
+
+Build the Google Bundle `*.aab`, by running this command in `platforms/android`:
