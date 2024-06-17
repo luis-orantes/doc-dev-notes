@@ -85,3 +85,5 @@ If you face any trouble when installing Homebrew please refer to the official in
 
 > The macOS system Ruby is typically older and can sometimes lead to issues.
 > Homebrew allows you to install a newer, separate version of Ruby.
+
+Check the version of Ruby you have installed by default in you mac by running:
