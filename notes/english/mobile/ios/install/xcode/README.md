@@ -87,3 +87,7 @@ If you face any trouble when installing Homebrew please refer to the official in
 > Homebrew allows you to install a newer, separate version of Ruby.
 
 Check the version of Ruby you have installed by default in you mac by running:
+
+```bash
+ruby -v
+```
