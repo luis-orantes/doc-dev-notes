@@ -91,3 +91,5 @@ Check the version of Ruby you have installed by default in you mac by running:
 ```bash
 ruby -v
 ```
+
+Now install Ruby:
