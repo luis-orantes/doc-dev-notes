@@ -93,3 +93,7 @@ ruby -v
 ```
 
 Now install Ruby:
+
+```bash
+brew install ruby
+```
