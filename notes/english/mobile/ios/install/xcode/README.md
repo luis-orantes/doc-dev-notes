@@ -97,3 +97,5 @@ Now install Ruby:
 ```bash
 brew install ruby
 ```
+
+Move to your home directory.
