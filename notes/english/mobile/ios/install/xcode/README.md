@@ -99,3 +99,7 @@ brew install ruby
 ```
 
 Move to your home directory.
+
+```bash
+cd ~
+```
