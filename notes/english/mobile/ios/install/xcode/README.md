@@ -103,3 +103,5 @@ Move to your home directory.
 ```bash
 cd ~
 ```
+
+Add the next path to your ~/.zshrc file
