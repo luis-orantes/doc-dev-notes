@@ -109,3 +109,5 @@ Add the next path to your ~/.zshrc file
 ```bash
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 ```
+
+Restart the terminal.
