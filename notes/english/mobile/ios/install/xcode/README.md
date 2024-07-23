@@ -113,3 +113,5 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 Restart the terminal.
 
 > It is important that the variable `$PATH` comes after the folder path to force the OS to run the new version of Ruby and not the default version.
+
+Restart the terminal and check that new version of Ruby has been installed:
