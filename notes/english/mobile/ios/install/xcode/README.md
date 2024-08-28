@@ -119,3 +119,8 @@ Restart the terminal and check that new version of Ruby has been installed:
 ```bash
 ruby -v
 ```
+
+
+
+
+## 4.- Install CocoaPods
