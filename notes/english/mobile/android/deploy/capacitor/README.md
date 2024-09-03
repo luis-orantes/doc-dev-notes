@@ -7,3 +7,7 @@
 ## 1.- App Version
 
 Set the app version for Android in file:
+
+```bash
+android/app/build.gradle
+```
