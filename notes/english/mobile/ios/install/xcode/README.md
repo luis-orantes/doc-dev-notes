@@ -124,3 +124,5 @@ ruby -v
 
 
 ## 4.- Install CocoaPods
+
+Install CocoaPods using the new Ruby version:
