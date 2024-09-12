@@ -130,3 +130,5 @@ Install CocoaPods using the new Ruby version:
 ```bash
 gem install cocoapods
 ```
+
+Add the next path to your ~/.zshrc file
