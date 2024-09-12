@@ -13,3 +13,12 @@ android/app/build.gradle
 ```
 
 For instance:
+
+```gradle
+defaultConfig {
+    ...
+    versionCode 1
+    versionName "1.0.0"
+    ...
+}
+```
