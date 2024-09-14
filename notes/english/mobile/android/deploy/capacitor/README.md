@@ -22,3 +22,5 @@ defaultConfig {
     ...
 }
 ```
+
+## 2.- Build Ionic
