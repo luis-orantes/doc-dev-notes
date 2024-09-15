@@ -136,3 +136,5 @@ Add the next path to your ~/.zshrc file
 ```bash
 export PATH="/usr/local/lib/ruby/gems/3.2.0/bin:$PATH"
 ```
+
+> The numbers after `gems` will change according to your Ruby version.
