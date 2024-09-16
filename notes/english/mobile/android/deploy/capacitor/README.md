@@ -24,3 +24,5 @@ defaultConfig {
 ```
 
 ## 2.- Build Ionic
+
+If the `www` directory exists, delete and run
