@@ -30,3 +30,5 @@ If the `www` directory exists, delete and run
 ```bash
 ionic build --prod
 ```
+
+## 3.- obfuscate
