@@ -144,3 +144,8 @@ Restart the terminal and check that cocoapods are reachable.
 ```bash
 pod --version
 ```
+
+
+
+
+### Initialize CocoaPods (if it's a new installation): *** probably not needed, do more tests
