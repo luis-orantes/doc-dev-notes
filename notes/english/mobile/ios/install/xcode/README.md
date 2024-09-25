@@ -149,3 +149,6 @@ pod --version
 
 
 ### Initialize CocoaPods (if it's a new installation): *** probably not needed, do more tests
+
+If you've just installed CocoaPods for the first time, you might need to set up the master repo. Do this with:
+
