@@ -152,3 +152,6 @@ pod --version
 
 If you've just installed CocoaPods for the first time, you might need to set up the master repo. Do this with:
 
+```bash
+pod setup
+```
