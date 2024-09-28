@@ -155,3 +155,8 @@ If you've just installed CocoaPods for the first time, you might need to set up 
 ```bash
 pod setup
 ```
+
+
+
+
+## 5.- (Optional) Test Xcode with an Ionic project
