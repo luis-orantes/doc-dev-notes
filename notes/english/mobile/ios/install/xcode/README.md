@@ -160,3 +160,13 @@ pod setup
 
 
 ## 5.- (Optional) Test Xcode with an Ionic project
+
+```bash
+ionic start menu sidemenu
+cd menu
+npm i @capacitor/ios
+npx cap add ios
+ionic build
+npx cap sync ios
+npx cap run ios
+```
