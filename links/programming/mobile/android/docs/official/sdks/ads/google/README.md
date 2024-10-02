@@ -8,3 +8,5 @@ The Capacitor AdMob plugin (@capacitor-community/admob) relies on the Google Mob
 This SDK is the core Android plugin used to serve Google ads in mobile apps.
 
 #### Main page
+
+https://play.google.com/sdks/details/com-google-android-gms-play-services-ads
