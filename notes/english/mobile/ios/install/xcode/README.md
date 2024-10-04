@@ -170,3 +170,6 @@ ionic build
 npx cap sync ios
 npx cap run ios
 ```
+
+The last command will open Xcode with the menu project.
+Run it with the emulator to see if it works.
