@@ -32,3 +32,5 @@ ionic build --prod
 ```
 
 ## 3.- obfuscate
+
+obfuscate: install it globally, available in: https://www.npmjs.com/package/javascript-obfuscator
