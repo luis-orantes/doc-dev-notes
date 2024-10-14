@@ -31,6 +31,18 @@ If the `www` directory exists, delete and run
 ionic build --prod
 ```
 
-## 3.- obfuscate
+## 3.- Obfuscate
 
 obfuscate: install it globally, available in: https://www.npmjs.com/package/javascript-obfuscator
+
+```bash
+cd www
+
+javascript-obfuscator main.700104971f02d9e9.js
+
+del main.700104971f02d9e9.js
+
+ren main-obfuscated.700104971f02d9e9.js main.700104971f02d9e9.js
+
+cd ..
+```
