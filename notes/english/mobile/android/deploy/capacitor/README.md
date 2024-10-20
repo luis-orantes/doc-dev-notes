@@ -46,3 +46,6 @@ ren main-obfuscated.700104971f02d9e9.js main.700104971f02d9e9.js
 
 cd ..
 ```
+
+> Notice that the file that starts with `main` is the one that should be obfuscated.
+> There is only one of them.
