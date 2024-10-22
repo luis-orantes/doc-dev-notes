@@ -50,3 +50,19 @@ Edit the `target` to a modern JavaScript version.
 ```json
  "target": "es2022",
 ```
+
+### Uncomment
+
+Uncomment the next compiler configurations:
+
+```json
+"declaration": true,
+```
+
+Generate a `.d.ts` file for every `.ts` file that exports something.
+
+```json
+"outDir": "./dist",
+```
+
+Outputs compiled files to the `./dist` directory.
