@@ -61,6 +61,8 @@ Uncomment the next compiler configurations:
 
 Generate a `.d.ts` file for every `.ts` file that exports something.
 
+Un comment an set to `./dist`.
+
 ```json
 "outDir": "./dist",
 ```
