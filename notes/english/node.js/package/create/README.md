@@ -88,3 +88,57 @@ This option tells TypeScript which files or directories to ignore when compiling
 * **`__tests__`**: This excludes files that might be located inside a `__tests__` folder, which are typically used for unit tests. Since these files are not part of your actual codebase, they’re excluded from the compilation.
 
 Name this commit: ts first configuration.
+
+### Result
+
+The `tsconfig.json` file should look like this:
+
+```json
+{
+  "compilerOptions": {
+    "target": "es2022", 
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"],
+}
+```
+
+The other already uncommented compiler options by default are:
+
+```json
+"module": "CommonJS",
+```
+
+This setting defines how TypeScript should handle module resolution.
+This will use the CommonJS module system, making it compatible with Node.js and other environments that support CommonJS.
+
+```json
+"strict": true,
+```
+
+This enables strict type-checking options in TypeScript, which ensures the highest level of type safety. Enabling strict helps catch bugs and issues early by enforcing stronger type-checking rules.
+
+```json
+"esModuleInterop": true,
+```
+
+This makes it easier to import CommonJS modules (e.g., Node.js modules or third-party libraries) in an ES6-style. Without this, importing such modules can require more verbose syntax.
+
+```json
+"forceConsistentCasingInFileNames": true,
+```
+
+This ensures that the casing of your import paths exactly matches the actual file names. This helps prevent bugs in case-sensitive file systems like Linux.
+
+```json
+"skipLibCheck": true,
+```
+
+This skips type-checking for `.d.ts` files in third-party libraries, which can speed up compilation and avoid issues that aren't directly related to your own code.
