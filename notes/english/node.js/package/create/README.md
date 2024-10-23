@@ -66,3 +66,25 @@ Generate a `.d.ts` file for every `.ts` file that exports something.
 ```
 
 Outputs compiled files to the `./dist` directory.
+
+### Append
+
+Add a comma after in the penultimate closing curling bracket `}` and the the following configurations:
+
+```json
+"include": ["src"],
+```
+
+This specifies which files TypeScript should include in the compilation process.
+
+```json
+"exclude": ["node_modules", "**/__tests__/*"],
+```
+
+This option tells TypeScript which files or directories to ignore when compiling. This excludes:
+
+* **`node_modules`**: This is where npm packages are installed. It’s excluded because you don’t want to compile third-party code.
+
+* **`__tests__`**: This excludes files that might be located inside a `__tests__` folder, which are typically used for unit tests. Since these files are not part of your actual codebase, they’re excluded from the compilation.
+
+Name this commit: ts first configuration.
