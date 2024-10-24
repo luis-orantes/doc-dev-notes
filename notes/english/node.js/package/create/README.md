@@ -144,3 +144,26 @@ This ensures that the casing of your import paths exactly matches the actual fil
 ```
 
 This skips type-checking for `.d.ts` files in third-party libraries, which can speed up compilation and avoid issues that aren't directly related to your own code.
+
+
+
+
+## Update `package.json` Scripts
+
+Modify your `package.json` to include build scripts:
+
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc",
+    "start": "ts-node src/index.ts",
+    "js": "npm run build && node dist/index.js",
+    "debug": "node --inspect-brk -r ts-node/register src/index.ts"
+  },
+  "files": [
+    "dist"
+  ],
+```
+
+Name this commit: node scripts, start, build, etc.
