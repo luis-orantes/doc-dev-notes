@@ -167,3 +167,37 @@ Modify your `package.json` to include build scripts:
 ```
 
 Name this commit: node scripts, start, build, etc.
+
+### Script explantion
+
+`"files": ["dist"]` tells npm to only include the dist directory when publishing the package or when someone installs it.
+
+```bash
+npm start
+```
+
+Runs the `src/index.ts` directly.
+
+```bash
+npm run clean
+```
+
+Delete the `./dist` directory.
+
+```bash
+npm run build
+```
+
+Delete the `./dist` directory and compile to JavaScript. The generarted files will be in the `./dist` directory.
+
+```bash
+npm run js
+```
+
+Delete the `./dist` directory, compiles to JavaScript and runs the `./dist/index.js` file.
+
+```bash
+npm run debug
+```
+
+Runs the `src/index.ts` file in debug mode listening in a port and wating VSCode to connect and start the debugging proccess.
