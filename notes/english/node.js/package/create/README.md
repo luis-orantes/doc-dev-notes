@@ -241,3 +241,17 @@ In the root folder create a folder called `.vscode`, inside create a json files 
 ```
 
 Name this commit: vscode config. debug by attach and ts-node.
+
+### How to Debug
+
+#### By Attaching
+
+Open the termial in the root folder of the package and run:
+
+```bash
+npm run debug
+```
+
+> It will keep listening in the debuggin port waiting for a connection.
+
+Open VSCode and navigate to the Run and Debug tab (the play icon on the left sidebar), select Attach and click in the play button.
