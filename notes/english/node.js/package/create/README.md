@@ -166,7 +166,7 @@ Modify your `package.json` to include build scripts:
   ],
 ```
 
-Name this commit: node scripts, start, build, etc.
+Name this commit: node scripts: start, build, etc.
 
 ### Script explantion
 
@@ -201,3 +201,43 @@ npm run debug
 ```
 
 Runs the `src/index.ts` file in debug mode listening in a port and wating VSCode to connect and start the debugging proccess.
+
+
+
+
+## Configurate VSCode for debugging
+
+In the root folder create a folder called `.vscode`, inside create a json files named `launch.json` and fill with this code:
+
+```json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "index.ts with ts-node",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/src/index.ts",
+      "runtimeArgs": ["--inspect-brk", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
+  ]
+}
+
+```
+
+Name this commit: vscode config. debug by attach and ts-node.
