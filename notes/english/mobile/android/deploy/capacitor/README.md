@@ -49,3 +49,5 @@ cd ..
 
 > Notice that the file that starts with `main` is the one that should be obfuscated.
 > There is only one of them.
+
+## 4.- Sync Android
