@@ -255,3 +255,15 @@ npm run debug
 > It will keep listening in the debuggin port waiting for a connection.
 
 Open VSCode and navigate to the Run and Debug tab (the play icon on the left sidebar), select Attach and click in the play button.
+
+#### By Running the ts File
+
+Open VSCode and navigate to the Run and Debug tab (the play icon on the left sidebar), select "index.ts with ts-node" and click in the play button.
+
+You will get the following error message:
+
+> Could not read source map for file://~/package-directory/node_modules/typescript/lib/typescript.js: ENOENT: no such file or directory
+
+The error is caused because typescript.js.map files are not shipped with the typescript package, so the debugger can’t locate them.
+This doesn’t impact debugging in your project files.
+Just ignore it.
