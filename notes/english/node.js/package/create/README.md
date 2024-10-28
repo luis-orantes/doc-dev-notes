@@ -267,3 +267,18 @@ You will get the following error message:
 The error is caused because typescript.js.map files are not shipped with the typescript package, so the debugger can’t locate them.
 This doesn’t impact debugging in your project files.
 Just ignore it.
+
+
+
+
+## (Optional) Install Lint
+
+Lint enforces coding standards and best practices. It can also handle some code formatting, like indentation.
+
+### Install Install ESLint and Additional ESLint Plugins for TypeScript
+
+```bash
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+Name this commit: Packages. install lint for ts.
