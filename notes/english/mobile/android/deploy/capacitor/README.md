@@ -51,3 +51,5 @@ cd ..
 > There is only one of them.
 
 ## 4.- Sync Android
+
+sync with the android folder
