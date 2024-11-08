@@ -282,3 +282,26 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 ```
 
 Name this commit: Packages. install lint for ts.
+
+### Initialize ESLint Configuration
+
+Use the ESLint CLI to create a configuration file.
+This will help you set up basic options interactively:
+
+```bash
+npx eslint --init
+```
+
+You’ll be prompted and choose these options:
+
+* **How would you like to use ESLint?** Choose either “To check syntax, and find problems.”
+
+* **What type of modules does your project use?** Choose “CommonJS” for Node.js.
+
+* **Which framework does your project use?** Choose “None.”
+
+* **Does your project use TypeScript?** Choose “Yes.”
+
+* **Where does your code run?** Choose “Node.”
+
+* **eslint, globals, @eslint/js, typescript-eslint? Would you like to install them now?** Choose “No.”
