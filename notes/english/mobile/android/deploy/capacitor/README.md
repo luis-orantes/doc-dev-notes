@@ -53,3 +53,7 @@ cd ..
 ## 4.- Sync Android
 
 sync with the android folder
+
+```bash
+npx cap sync android
+```
