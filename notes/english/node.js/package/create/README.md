@@ -304,4 +304,6 @@ You’ll be prompted and choose these options:
 
 * **Where does your code run?** Choose “Node.”
 
-* **eslint, globals, @eslint/js, typescript-eslint? Would you like to install them now?** Choose “No.”
+* **eslint, globals, @eslint/js, typescript-eslint? Would you like to install them now?** Choose “Yes.”
+
+* **Which package manager do you want to use?** Choose “npm.”
