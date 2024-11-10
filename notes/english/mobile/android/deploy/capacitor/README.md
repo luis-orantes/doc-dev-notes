@@ -57,3 +57,5 @@ sync with the android folder
 ```bash
 npx cap sync android
 ```
+
+## 5.- (OPTIONAL) Test
