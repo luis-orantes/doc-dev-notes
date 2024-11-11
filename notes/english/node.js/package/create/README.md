@@ -307,3 +307,53 @@ You’ll be prompted and choose these options:
 * **eslint, globals, @eslint/js, typescript-eslint? Would you like to install them now?** Choose “Yes.”
 
 * **Which package manager do you want to use?** Choose “npm.”
+
+
+
+
+## Configure `.eslintrc` for TypeScript
+
+Create a `.eslintrc.json` file in the root directory of the project and fill the json file with the followig data:
+
+```json
+{
+  "parser": "@typescript-eslint/parser",   // Specifies the TypeScript parser
+  "extends": [
+    "eslint:recommended",                  // Uses the recommended ESLint rules
+    "plugin:@typescript-eslint/recommended" // Uses the recommended rules from the @typescript-eslint plugin
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2022,                   // Allows for modern ECMAScript features
+    "sourceType": "module"                 // Allows for the use of imports
+  },
+  "env": {
+    "node": true                           // Defines Node.js global variables
+  },
+  "rules": {
+    // Add custom rules here if needed
+    "@typescript-eslint/no-unused-vars": ["error"] // Example: throw an error for unused variables
+  }
+}
+```
+
+The json file doesn't allow the use of comments. Here goes the json file again without coments:
+
+```json
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error"]
+  }
+}
+```
