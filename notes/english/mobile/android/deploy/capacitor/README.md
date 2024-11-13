@@ -59,3 +59,5 @@ npx cap sync android
 ```
 
 ## 5.- (OPTIONAL) Test
+
+Test the app on device
