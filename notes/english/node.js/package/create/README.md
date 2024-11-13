@@ -308,10 +308,7 @@ You’ll be prompted and choose these options:
 
 * **Which package manager do you want to use?** Choose “npm.”
 
-
-
-
-## Configure `.eslintrc` for TypeScript
+### Configure `.eslintrc` for TypeScript
 
 Create a `.eslintrc.json` file in the root directory of the project and fill the json file with the followig data:
 
@@ -359,3 +356,30 @@ The json file doesn't allow the use of comments. Here goes the json file again w
 ```
 
 Name this commit: config lint for ts.
+
+### Add an ESLint Script in `package.json`
+
+Add the following scripts to your `package.json` file
+
+```json
+"scripts": {
+  "lint": "eslint 'src/**/*.{js,ts}'",
+  "lintfix": "eslint 'src/**/*.{js,ts}' --fix"
+}
+```
+
+To lint your code, run the following command:
+
+```bash
+npm run lint
+```
+
+This will analyze your code according to the rules in `.eslintrc` and display any issues in the console.
+
+```bash
+npm run lintfix
+```
+
+By running this command, it will now automatically fix issues wherever possible.
+
+Name this commit: lint Scripts.
