@@ -357,3 +357,5 @@ The json file doesn't allow the use of comments. Here goes the json file again w
   }
 }
 ```
+
+Name this commit: config lint for ts.
