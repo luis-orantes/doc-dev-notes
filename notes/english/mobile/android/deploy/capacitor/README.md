@@ -61,3 +61,5 @@ npx cap sync android
 ## 5.- (OPTIONAL) Test
 
 Test the app on device
+
+If you have AdMob set for production,
