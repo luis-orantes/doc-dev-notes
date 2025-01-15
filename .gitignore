@@ -13,3 +13,4 @@ $RECYCLE.BIN/
 # System files
 .DS_Store
 Thumbs.db
+._*
