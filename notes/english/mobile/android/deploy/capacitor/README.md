@@ -63,3 +63,5 @@ npx cap sync android
 Test the app on device
 
 If you have AdMob set for production,
+you could run the app in plane mode.
+
