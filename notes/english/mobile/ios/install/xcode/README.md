@@ -135,13 +135,15 @@ gem install cocoapods
 
 Add the next path to your ~/.zshrc file
 
+<!-- Intel path: /usr/local/lib/ruby/gems/3.2.0/bin -->
+
 ```bash
-export PATH="/usr/local/lib/ruby/gems/3.2.0/bin:$PATH"
+export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"
 ```
 
 > The numbers after `gems` will change according to your Ruby version.
 
-Restart the terminal and check that cocoapods are reachable.
+Restart the terminal and check that cocoapods is reachable.
 
 ```bash
 pod --version
