@@ -107,8 +107,9 @@ cd ~
 Add the next path to your ~/.zshrc file
 
 ```bash
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/Cellar/ruby/3.4.1/bin:$PATH"
 ```
+> The numbers after `ruby` will change according to your Ruby version.
 
 Restart the terminal.
 
