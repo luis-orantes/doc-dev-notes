@@ -115,7 +115,8 @@ Restart the terminal.
 
 > It is important that the variable `$PATH` comes after the folder path to force the OS to run the new version of Ruby and not the default version.
 
-Restart the terminal and check that new version of Ruby has been installed:
+Restart the terminal and check that new version of Ruby has been installed.
+Check that it matches with the new installed ruby version.
 
 ```bash
 ruby -v
