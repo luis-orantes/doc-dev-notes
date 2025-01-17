@@ -65,3 +65,6 @@ Test the app on device
 If you have AdMob set for production,
 you could run the app in plane mode.
 
+```bash
+npx cap run android
+```
