@@ -106,6 +106,8 @@ cd ~
 
 Add the next path to your ~/.zshrc file
 
+<!-- Intel path: /usr/local/opt/ruby -->
+
 ```bash
 export PATH="/opt/homebrew/Cellar/ruby/3.4.1/bin:$PATH"
 ```
