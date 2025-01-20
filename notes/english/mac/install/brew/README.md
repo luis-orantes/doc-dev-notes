@@ -34,3 +34,10 @@ If you don't have it installed, run the following command in the terminal.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+
+
+
+### Troubleshooting
+
+If you face any trouble when installing Homebrew please refer to the official installation guide at https://docs.brew.sh/Installation.
