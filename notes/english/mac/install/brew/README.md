@@ -11,6 +11,10 @@ Its primary purpose is to provide macOS users with a convenient way to install o
 Homebrew automatically handles dependencies, ensuring smooth installations and updates. Its key advantages include saving time with one-line commands, organizing software in a central directory, enabling quick updates via `brew upgrade`, and offering an extensive repository of software through "formulae" (packages) and "casks" (GUI applications).
 This makes Homebrew a go-to tool for developers and power users seeking efficiency and control over their macOS environment.
 
+### Formulae vs Casks
+
+**Formulae** are used to install command-line tools, libraries, and other terminal-based software, such as `git`, `wget`, or programming environments like `python`. They are lightweight and optimized for terminal use without a graphical interface. On the other hand, **casks** are designed to install macOS applications that come with a graphical user interface (GUI), such as `Google Chrome`, `Slack`, or `Visual Studio Code`. Casks automate the process of downloading, installing, and moving GUI-based apps to the Applications folder, eliminating the need for manual installation.
+
 
 
 
