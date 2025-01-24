@@ -18,6 +18,21 @@ They are lightweight and optimized for terminal use without a graphical interfac
 On the other hand, **casks** are designed to install macOS applications that come with a graphical user interface (GUI), such as `Google Chrome`, `Slack`, or `Visual Studio Code`.
 Casks automate the process of downloading, installing, and moving GUI-based apps to the Applications folder, eliminating the need for manual installation.
 
+### Apple Notarization Policy
+
+The `--no-quarantine` flag in Homebrew is used during the installation of certain applications to bypass macOS's **quarantine system**, which is part of Gatekeeper, a security feature that flags downloaded files as potentially unsafe until verified.
+Normally, macOS applies a quarantine attribute to files downloaded from the internet, requiring them to be explicitly approved by the user before running.
+This can cause issues with some Homebrew-installed software that lacks Apple notarization or a valid developer signature, even if the software is safe and verified by Homebrew.
+Using `--no-quarantine` prevents this attribute from being applied, allowing trusted but unsigned software to run without additional prompts or manual approval.
+This flag is typically needed for command-line tools, open-source utilities, or cross-platform applications that are not notarized for macOS but are distributed through trusted sources like Homebrew.
+However, it should only be used when you trust the software's origin.
+
+Example:
+
+```bash
+brew install rar --no-quarantine
+```
+
 
 
 
