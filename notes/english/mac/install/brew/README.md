@@ -36,7 +36,7 @@ brew install rar --no-quarantine
 
 
 
-## Instalation
+## Installation
 
 Check if you already have Homebrew installed by checking its version.
 
