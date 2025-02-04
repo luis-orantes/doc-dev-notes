@@ -68,3 +68,8 @@ you could run the app in plane mode.
 ```bash
 npx cap run android
 ```
+
+
+
+
+## 6.- Bundle
