@@ -4,6 +4,13 @@
 
 
 
+> These instruction notes require installing software using **Homebrew**.
+If you haven't installed it yet, follow the steps provided in [this link](https://github.com/luis-orantes/doc-dev-notes/tree/main/notes/english/mac/install/brew).
+If you already have **Homebrew** installed, remember to update it by running `brew update` before installing anything.
+
+
+
+
 ## 1.- Install Java
 
 Install Java LTS 17 from:
