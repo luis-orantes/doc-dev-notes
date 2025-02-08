@@ -13,9 +13,15 @@ If you already have **Homebrew** installed, remember to update it by running `br
 
 ## 1.- Install Java
 
-Install Java LTS 17 from:
+Install Java LTS 17 by running:
 
+```bash
+brew install openjdk@17
+```
+
+<!-- link to install manually
 https://www.oracle.com/java/technologies/downloads/
+-->
 
 > At this moment the latest version of Java LTS is 21 and it isn't compatible with Ionic.
 
