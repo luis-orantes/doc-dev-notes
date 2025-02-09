@@ -28,6 +28,19 @@ https://www.oracle.com/java/technologies/downloads/
 
 
 
+## MacOS Java Wrappers
+
+MacOS expects Java installations to be located in `/Library/Java/JavaVirtualMachines`.
+By creating the symlink, you align the Homebrew-installed JDK with macOS's expectations.
+Run the follwing command:
+
+```bash
+sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+```
+
+
+
+
 ## 2.- Environment
 
 Add the JAVA_HOME environment variable.
