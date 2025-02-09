@@ -11,7 +11,7 @@ If you already have **Homebrew** installed, remember to update it by running `br
 
 
 
-## 1.- Install Java
+## Install Java
 
 Install Java LTS 17 by running:
 
@@ -41,7 +41,7 @@ sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/Java
 
 
 
-## 2.- Environment
+## Environment
 
 Add the JAVA_HOME environment variable.
 
@@ -68,7 +68,7 @@ Restart the terminal.
 
 
 
-## 3.- Android Studio
+## Android Studio
 
 Download and install Android Studio from:
 https://developer.android.com/studio/install
@@ -76,7 +76,7 @@ https://developer.android.com/studio/install
 
 
 
-### 3.1.- Download apis
+### Download apis
 
 Create an empty project selecting the second top API.
 
@@ -97,7 +97,7 @@ Select `platform` and the `Google APIs system image` of your OS (ARM or Intel, a
 
 
 
-## 4.- Add environment variables
+## Add environment variables
 
 Add the next environment variables to your .zshrc file in your home directory.
 
@@ -108,7 +108,7 @@ export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
 
 
 
-## 5.- Add path
+## Add path
 
 Add the next paths to your ~/.zshrc file:
 
@@ -123,7 +123,7 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools/bin:$PATH"
 
 
 
-## 6.- Remove unwanted API
+## Remove unwanted API
 
 When downloading the API in step 4, the top API (34) is removed but the build tools aren't.
 So, we need to remove it by using the next cli command replacing the numbers by the top build tools in `~/Library/Android/sdk/build-tools`.
@@ -137,7 +137,7 @@ sdkmanager --uninstall "build-tools;34.0.0"
 
 
 
-## 7.- More paths
+## More paths
 
 Add the path to the second top build tools.
 Replace the numbers by the build tools numbers (33.0.1).
@@ -149,7 +149,7 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/33.0.1:$PATH"
 
 
 
-## 8.- Install CLI
+## Install CLI
 
 Click on tab `SDK Tools` and select `Android SDK Command-line Tools (latest)`.
 
@@ -164,7 +164,7 @@ export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin
 
 
 
-## 9.- Create device
+## Create device
 
 In Android Studio go to `tools->Device manager` and click on `Device`.
 
@@ -184,7 +184,7 @@ Select the option `Emulated Performance -> Boot option -> Cold boot`.
 
 
 
-### 9.1.- (Optional) Extra devices
+### (Optional) Extra devices
 
 You may need to use the following dimensions for getting the screenshots required by Google Play.
 For doing this you may just need to edit the AVD
@@ -196,7 +196,7 @@ For doing this you may just need to edit the AVD
 
 
 
-### 9.2.- (Optional) iPhone devices
+### (Optional) iPhone devices
 
 You may use the Android emulator to take the screenshots for the iPhone.
 When editing the AVD size click on `New Hardware Profile` and fill the info using the following data:
