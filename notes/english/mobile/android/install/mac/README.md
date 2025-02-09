@@ -61,6 +61,9 @@ Open this file and add the next line:
 
 ```bash
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+
+# path to java cli
+export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 Restart the terminal.
