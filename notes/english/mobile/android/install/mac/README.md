@@ -90,7 +90,7 @@ https://developer.android.com/studio/install
 
 Create an empty project selecting the second top API.
 
-> Which at this moment is API 33.
+> Which at this moment is API 35.
 
 > This will download that API.
 
@@ -98,11 +98,8 @@ We will also need the empty project to open the SDK manager.
 
 Open the SDK manager in `tools->SDK manager` and stay in `SDK platfoms` in the menu, and check `show package details`.
 
-In the Android SDK at the left menu select `Android SDK` unselect the top API (34) and select the second top API (33).
-Select `platform` and the `Google APIs system image` of your OS (ARM or Intel, according to your type of processor).
-
-> Ionic capacitor runs from Android 5.1 API 22 but it will show only a white screen in the emulator because that API version doesn't come with Chrome.
-> In practice, in a device, the App will be shown correctly since vendors will install chrome by default.
+In the Android SDK at the left menu select `Android SDK` unselect the top API (36) and select the second top API (35).
+Select `platform` and `Google Play ARM 64 v8a System Image`.
 
 
 
