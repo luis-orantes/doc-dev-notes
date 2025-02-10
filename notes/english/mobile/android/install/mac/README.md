@@ -73,8 +73,15 @@ Restart the terminal.
 
 ## Android Studio
 
-Download and install Android Studio from:
+Install Android studio by running:
+
+```bash
+brew install --cask android-studio
+```
+
+<!-- link to install manually
 https://developer.android.com/studio/install
+-->
 
 
 
