@@ -126,6 +126,24 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/platform-tools:$PATH"
 
 
 
+## Install Android SDK Command-Line Tools
+
+Open Android Studio.
+Go to Preferences: **Android Studio > Settings** (or Command + ,).
+Navigate to **Languages & Frameworks > Android SDK**.
+In the SDK Manager, go to the SDK Tools tab.
+Check the box for Android SDK Command-line Tools (latest).
+Click Apply, then OK to install.
+
+Add the next paths to your ~/.zshrc file:
+
+```bash
+export PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$PATH"
+```
+
+
+
+
 ## Remove unwanted API
 
 When downloading the API in step 4, the top API (35) is removed but the build tools aren't.
