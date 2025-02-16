@@ -90,7 +90,7 @@ https://developer.android.com/studio/install
 
 Create an empty project selecting the second top API.
 
-> Which at this moment is API 35.
+> Which at this moment is API 34.
 
 > This will download that API.
 
@@ -132,13 +132,13 @@ export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/tools/bin:$PATH"
 
 ## Remove unwanted API
 
-When downloading the API in step 4, the top API (34) is removed but the build tools aren't.
+When downloading the API in step 4, the top API (35) is removed but the build tools aren't.
 So, we need to remove it by using the next cli command replacing the numbers by the top build tools in `~/Library/Android/sdk/build-tools`.
 
 Restart the terminal; then run:
 
 ```bash
-sdkmanager --uninstall "build-tools;34.0.0"
+sdkmanager --uninstall "build-tools;35.0.0"
 ```
 
 
@@ -147,10 +147,10 @@ sdkmanager --uninstall "build-tools;34.0.0"
 ## More paths
 
 Add the path to the second top build tools.
-Replace the numbers by the build tools numbers (33.0.1).
+Replace the numbers by the build tools numbers (34.0.1).
 
 ```bash
-export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/33.0.1:$PATH"
+export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/34.0.1:$PATH"
 ```
 
 
