@@ -167,6 +167,8 @@ Replace the numbers by the build tools numbers (34.0.1).
 export PATH="$ANDROID_SDK_ROOT/Library/Android/sdk/build-tools/34.0.1:$PATH"
 ```
 
+Restart the terminal and run `aapt`. It should be reachable.
+
 
 
 
