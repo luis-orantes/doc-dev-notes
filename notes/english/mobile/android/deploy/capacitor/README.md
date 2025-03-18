@@ -88,3 +88,20 @@ The generated `.aab` file will typically be located in the following directory r
 ```bash
 android/app/build/outputs/bundle/release/app-release.aab
 ```
+
+## 7.- (OPTIONAL) keystore
+
+Create the keystore.
+
+If you don't already have a keystore.
+In this command, alias_name = key (which means the name where the key is stored).
+
+> A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
+
+It needs path to C:\Program Files\Java\jdk1.8.0_171\bin
+
+Leave fields empty and when it ask you if data are correct type "yes"
+
+```bash
+keytool -genkey -v -keystore appName.keystore -alias key -keyalg RSA -keysize 2048 -validity 10000
+```
