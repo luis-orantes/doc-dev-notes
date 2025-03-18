@@ -105,3 +105,21 @@ Leave fields empty and when it ask you if data are correct type "yes"
 ```bash
 keytool -genkey -v -keystore appName.keystore -alias key -keyalg RSA -keysize 2048 -validity 10000
 ```
+
+## 8.- Sign
+
+Sign the bundle
+
+In this command, alias_name = key (which means the name where the key is stored).
+
+> A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
+
+```bash
+    jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore O:\keystores\brain\premium2\brainPremium2.keystore app-release.aab key
+
+    zipalign -v 4 app-release.aab app-release-done.aab
+```
+
+`app-release-done.aab` is the file ready to be uploaded to the Play Store.
+
+> Google Play requires AAB files but Amazon is usind APK
