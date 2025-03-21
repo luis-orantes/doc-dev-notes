@@ -192,8 +192,8 @@ export PATH="/Users/<your_username>/Library/Android/sdk/cmdline-tools/latest/bin
 In Android Studio go to `tools->Device manager` and click on `Device`.
 
 In the just opened right side Select `phone->Galaxy Nexus`(720x1280)
-and click in next select the API 33 image and name the AVD `13api33`.
-Where 13 stands for the Android version and 33 for the API version.
+and click in next select the API 34 image and name the AVD `14api34`.
+Where 14 stands for the Android version and 34 for the API version.
 
 > These are the minimal required dimensions for a phone screenshot in Google Play.
 
