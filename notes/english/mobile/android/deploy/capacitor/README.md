@@ -4,6 +4,25 @@
 
 
 
+## 1.- Prepare Project
+
+Delete the `~/android` directory.
+
+If you are using git and you have a branch with the production configurations, switch to that branch.
+
+If you haven't, set the production **id** and **name** in the file `~/capacitor.config.ts`.
+
+> When changing the **id** in Android it is required the Android folder to be regenerated.
+
+Generate the Android folder again.
+
+```bash
+npx cap add android
+```
+
+
+
+
 ## 1.- App Version
 
 Set the app version for Android in file:
