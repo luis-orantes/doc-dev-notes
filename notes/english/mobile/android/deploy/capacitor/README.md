@@ -31,6 +31,37 @@ npx cap add android
 
 
 
+## 2.- (OPTIONAL) Configure Ads
+
+If you haven't, configure the AdMom plugin to show real ads, for instance.
+
+```typescript
+static IS_TESTING_ADMOB: boolean = false;
+```
+
+Opem the '~/android/app/src/main/AndroidManifest.xml' file and add the permission to show personalized ads by adding this line after the `</applation>` tag closes and before the `</manifest>` tag closes (in line 39).
+
+```xml
+<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+```
+
+Add the aplication ad ID after the `<application>` tag closes (in line 11).
+
+```xml
+<!-- Add the following meta-data for AdMob TIMOTHY -->
+<meta-data
+    android:name="com.google.android.gms.ads.APPLICATION_ID"
+    android:value="ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY"
+/>
+```
+
+Where the Xs and the Ys are numbers and it should be replaced by your aplication ID.
+
+> TIP: Is more convenient to keep the manisfest file open in Visual Studio with all the configurations done before renerating the `~/android` folder. Undo the changes by pressing `Contro+Z` or 'CMD+Z' one time to recover the chages ans save them to make it effective.
+
+
+
+
 ## 1.- App Version
 
 Set the app version for Android in file:
