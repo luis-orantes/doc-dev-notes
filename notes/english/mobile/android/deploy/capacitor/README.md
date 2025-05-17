@@ -8,7 +8,15 @@
 
 Delete the `~/android` directory.
 
-If you are using git and you have a branch with the production configurations, switch to that branch.
+```bash
+rm -rf android
+```
+
+If you are using Git and you have a branch with the production configurations, switch to that branch.
+
+```bash
+git switch play-production
+```
 
 If you haven't, set the production **id** and **name** in the file `~/capacitor.config.ts`.
 
