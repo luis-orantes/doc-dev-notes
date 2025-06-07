@@ -90,7 +90,7 @@ npx @capacitor/assets generate --android
 Set the app version for Android in file:
 
 ```bash
-android/app/build.gradle
+~/android/app/build.gradle
 ```
 
 For instance:
@@ -98,11 +98,28 @@ For instance:
 ```gradle
 defaultConfig {
     ...
-    versionCode 1
-    versionName "1.0.0"
+    versionCode 20100
+    versionName "2.1.0"
     ...
 }
 ```
+
+### Convention Suggestion
+
+We suggest to use the following convection for **versionName**:
+
+```
+Major change.Minor Change or fix.Build
+```
+
+Construct the **versionCode** out of the version **versionName** by setting the **Minor Change or fix** and **Build** going from 0 to 99 as the example above.
+
+> This to keep consistent the numbering of versions between iOS and Android since in iOS you can have multiple builds but in Android you need to create a new version in the case you need to upload a new build for the same App version. In iOS it is mandatory to have a versioning of three digits. Also, it is helpful to deduct the App version easily from the **versionCode** in Android.
+
+> Note: this convention only applies to Apps and not to libraries. Libraries should use the standart convection of: Major change.Minor Change.fix
+
+
+
 
 ## 2.- Build Ionic
 
