@@ -67,10 +67,6 @@ Undo the changes by pressing `Contro+Z` or 'CMD+Z' one time to recover the chang
 
 If the `~/assets` folder doesn't exist, create it and place your `icon.png` (1024x1024 pixels) there.
 
-```bash
-rm -rf assets
-```
-
 > Only place the icon. The `splash.png` file should not be present in that directory.
 
 > Please don't confuse this folder with the one in `~/src/assets`, as that is a different folder.
