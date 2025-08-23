@@ -81,7 +81,7 @@ npx @capacitor/assets generate --android
 
 
 
-## 1.- App Version
+## 4.- App Version
 
 Set the app version for Android in file:
 
@@ -113,6 +113,20 @@ Construct the **versionCode** out of the version **versionName** by setting the 
 > This to keep consistent the numbering of versions between iOS and Android since in iOS you can have multiple builds but in Android you need to create a new version in the case you need to upload a new build for the same App version. In iOS it is mandatory to have a versioning of three digits. Also, it is helpful to deduct the App version easily from the **versionCode** in Android.
 
 > Note: this convention only applies to Apps and not to libraries. Libraries should use the standart convection of: Major change.Minor Change.fix
+
+
+
+
+## 5.- SDK target
+
+Sometimes the Android project doesn't target the latest Android SDK version. To solve this, open the `~android/variables.gradle` file and set these variables to the latest versions which at this moment is 36.
+
+```gradle
+    compileSdkVersion = 36
+    targetSdkVersion = 36
+```
+
+> You need to have installed that Android SDK version and to have the Android project compiled with that Android SDK version.
 
 
 
