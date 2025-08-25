@@ -131,7 +131,7 @@ Sometimes the Android project doesn't target the latest Android SDK version. To 
 
 
 
-## 2.- Build Ionic
+## 6.- Build Ionic
 
 If the `www` directory exists, delete and run
 
@@ -139,7 +139,10 @@ If the `www` directory exists, delete and run
 ionic build --prod
 ```
 
-## 3.- Obfuscate
+
+
+
+## 7.- Obfuscate
 
 obfuscate: install it globally, available in: https://www.npmjs.com/package/javascript-obfuscator
 
@@ -158,7 +161,10 @@ cd ..
 > Notice that the file that starts with `main` is the one that should be obfuscated.
 > There is only one of them.
 
-## 4.- Sync Android
+
+
+
+## 8.- Sync Android
 
 sync with the android folder
 
@@ -166,7 +172,10 @@ sync with the android folder
 npx cap sync android
 ```
 
-## 5.- (OPTIONAL) Test
+
+
+
+## 9.- (OPTIONAL) Test
 
 Test the app on device
 
@@ -180,7 +189,7 @@ npx cap run android
 
 
 
-## 6.- Bundle
+## 10.- Bundle
 
 Generate the Android App Bundle (.aab file) for an Ionic Capacitor project using the CLI without opening Android Studio.
 
@@ -197,7 +206,10 @@ The generated `.aab` file will typically be located in the following directory r
 android/app/build/outputs/bundle/release/app-release.aab
 ```
 
-## 7.- (OPTIONAL) keystore
+
+
+
+## 11.- (OPTIONAL) keystore
 
 Create the keystore.
 
@@ -214,7 +226,10 @@ Leave fields empty and when it ask you if data are correct type "yes"
 keytool -genkey -v -keystore appName.keystore -alias key -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-## 8.- Sign
+
+
+
+## 12.- Sign
 
 Sign the bundle
 
