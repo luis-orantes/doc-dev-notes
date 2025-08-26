@@ -193,14 +193,27 @@ npx cap run android
 
 Generate the Android App Bundle (.aab file) for an Ionic Capacitor project using the CLI without opening Android Studio.
 
+Move to your Android directory.
+
 ```bash
 cd android
+```
+
+Build the Bundle
+
+```bash
 ./gradlew bundleRelease
+```
+
+Return to your project directory.
+
+```bash
+cd ..
 ```
 
 The generated `.aab` file will typically be located in the following directory relative to your project root:
 
-> preferible delete any file before running the command, just to be sure it is generating correctly.
+> preferible delete the `app-release.aab` bundle file before running the command, just to be sure it is generating correctly.
 
 ```bash
 android/app/build/outputs/bundle/release/app-release.aab
