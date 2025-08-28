@@ -231,9 +231,24 @@ In this command, alias_name = key (which means the name where the key is stored)
 
 > A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
 
-It needs path to C:\Program Files\Java\jdk1.8.0_171\bin
+In Windows it needs path to:
 
-Leave fields empty and when it ask you if data are correct type "yes"
+```bash
+C:\Program Files\Java\jdk1.8.0_171\bin
+```
+
+In Mac it needs path to:
+```bash
+/Library/Java/JavaVirtualMachines/openjdk-21.jdk/Contents/Home/bin
+```
+
+> Adjust the path according to your Java version.
+
+Leave fields empty by just pressing enter and when it asks you if data are correct type **Yes**.
+
+> This is if your Java is in English.
+> If it is in other language, it will vary depending on the language.
+> For instance **Si** for Spanish.
 
 ```bash
 keytool -genkey -v -keystore appName.keystore -alias key -keyalg RSA -keysize 2048 -validity 10000
