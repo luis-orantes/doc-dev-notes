@@ -224,10 +224,9 @@ android/app/build/outputs/bundle/release/app-release.aab
 
 ## 11.- (OPTIONAL) keystore
 
-Create the keystore.
-
-If you don't already have a keystore.
-In this command, alias_name = key (which means the name where the key is stored).
+If you don't already have a keystore, create one by running the following command.
+In this command, `alias_name = key` (which means the key name where the key will be stored) and you can leave it as it is.
+In the command, onley replace **appName** with the name of your App.
 
 > A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
 
@@ -244,10 +243,10 @@ In Mac it needs path to:
 
 > Adjust the path according to your Java version.
 
-Leave fields empty by just pressing enter and when it asks you if data are correct type **Yes**.
+When running the command you will be asked for some data. Leave fields empty by just pressing enter and at the end, when it asks if data are correct type **Yes**.
 
 > This is if your Java is in English.
-> If it is in other language, it will vary depending on the language.
+> If you Java is in other language, it will vary depending on the language.
 > For instance **Si** for Spanish.
 
 ```bash
