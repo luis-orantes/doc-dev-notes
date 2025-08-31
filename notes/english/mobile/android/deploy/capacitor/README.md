@@ -226,7 +226,7 @@ android/app/build/outputs/bundle/release/app-release.aab
 
 If you don't already have a keystore, create one by running the following command.
 In this command, `alias_name = key` (which means the key name where the key will be stored) and you can leave it as it is.
-In the command, onley replace **appName** with the name of your App.
+In this command, only replace **appName** with the name of your App.
 
 > A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
 
@@ -258,18 +258,31 @@ keytool -genkey -v -keystore appName.keystore -alias key -keyalg RSA -keysize 20
 
 ## 12.- Sign
 
-Sign the bundle
-
-In this command, alias_name = key (which means the name where the key is stored).
-
-> A key store may contain several alias_name but it is recommended to have only one by key store and one key store per App.
+Move to the folder where the bundle is located.
 
 ```bash
-    jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore O:\keystores\brain\premium2\brainPremium2.keystore app-release.aab key
+cd android/app/build/outputs/bundle/release
+```
 
-    zipalign -v 4 app-release.aab app-release-done.aab
+Sign the bundle.
+
+In this command, `alias_name = key` (which means the key name where the key will be stored) and you can leave it as it is.
+In this command, only replace **appName** all together with path by the path and name of your App. It is recommended that the path neither the **appName** to contain no spaces but if you need the spaces you should enclose the **appName** all together with the path between quotations.
+
+> A key store may contain several `alias_name` but it is recommended to have only one by key store and one key store per App.
+
+```bash
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore O:\keystores\brain\premium2\brainPremium2.keystore app-release.aab key
+```
+
+Optimize the bundle by running this command as it is.
+No edition of the command is required.
+
+```bash
+zipalign -v 4 app-release.aab app-release-done.aab
 ```
 
 `app-release-done.aab` is the file ready to be uploaded to the Play Store.
+It is recommended renaming this file without spaces such as: buildDate-appName-version.aab since the file name will be visible in the Play Store console. For instance:
 
-> Google Play requires AAB files but Amazon is usind APK
+2025-08-30-brain-builder-2.1.0.aab.
