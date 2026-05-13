@@ -8,9 +8,13 @@
 *.tmp
 *.tmp.*
 UserInterfaceState.xcuserstate
-$RECYCLE.BIN/
 
-# System files
+# ADDITIONAL IGNORES
+
+# Mac system files
 .DS_Store
-Thumbs.db
 ._*
+
+# Windows system files
+Thumbs.db
+$RECYCLE.BIN/
